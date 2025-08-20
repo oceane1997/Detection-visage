@@ -79,12 +79,11 @@ st.markdown("""
 > Astuce : placez-vous face caméra, avec un éclairage homogène. Les lunettes/masques peuvent réduire la détection.
 """)
 
-# Petit indicateur d'avancement du devoir
-st.info("Étape 1/5 : Instructions ajoutées. Dis-moi quand on passe à l'étape 2 (sauvegarde des images).")
+
 
 
 st.markdown("---")
-st.subheader("Étape 2/5 — Détection sur une image et sauvegarde des visages")
+st.subheader("Détection sur une image et sauvegarde des visages")
 
 tab_cam, tab_file = st.tabs(["📷 Prendre une photo", "📁 Importer une image"])
 
